@@ -1,0 +1,60 @@
+import random
+
+x='y'
+
+while x=='y':
+    number = random.randint(1 , 6)
+
+    if number == 1:
+        print(" -----")
+        print("|      |")
+        print("|  0  |")
+        print("  -----")
+        print("You got one")
+
+    if number == 2:
+        print(" -----")
+        print("|  0  |")
+        print("|  0  |")
+        print(" -----")
+        print("You got two")
+
+if number == 3:
+        print(" -----")
+        print("| 0 0 |")
+        print("|  0  |")
+        print(" -----")
+        print("You got three")
+
+if number == 4:
+        print(" -----")
+        print("|  0 0  |")
+        print("|  0 0  |")
+        print(" -----")
+        print("You got four")
+
+
+
+if number == 5:
+        print(" -----")
+        print("|  0 0  |")
+        print("|  0 0  |")
+        print("|   0   |")
+        print("  -----")
+        print("You got five")
+
+if number == 6:
+        print(" -----")
+        print("|  0 0  |")
+        print("|  0 0  |")
+        print("|  0 0  |")
+        print("  -----")
+        print("You got six")
+        print("\n")
+
+x = input("Press y to play again and N to exit")
+print ("\n")   
+
+
+
+
